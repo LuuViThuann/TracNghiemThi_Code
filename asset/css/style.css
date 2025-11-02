@@ -108,7 +108,7 @@ body {
   text-align: center;
   padding: 8px 0;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1rem;
   transition: all 0.3s ease;
   height: 45px;
   line-height: 29px;
@@ -153,7 +153,7 @@ body {
 
 .title {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: bold;
   margin-bottom: 15px;
   color: #2575fc;
@@ -167,7 +167,7 @@ body {
 }
 
 .question {
-  font-size: 1rem;
+  font-size: 19px;
   margin-bottom: 12px;
   font-weight: bold;
 }
@@ -181,7 +181,7 @@ body {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: 0.95rem;
+  font-size: 1.1rem;
 }
 
 .options input { display: none; }
@@ -323,9 +323,48 @@ button:disabled { background: #ccc; cursor: not-allowed; }
 
 @media (max-width: 480px) {
   body { padding: 5px; }
-  .container { gap: 8px; padding: 0 5px; }
-  .tabs { gap: 6px; }
-  .tab { padding: 10px 12px; font-size:14px; }
+  
+  /* === CONTAINER & TABS: XUỐNG DÒNG, KHÔNG CUỘN NGANG === */
+  .container {
+    gap: 8px;
+    padding: 0 5px;
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin-bottom: 12px;
+    padding: 0;
+    overflow: visible !important;
+    width: 100%;
+  }
+
+  .tab {
+    flex: 1 1 calc(50% - 8px); /* 2 tab mỗi hàng */
+    min-width: 100px;
+    max-width: calc(50% - 8px);
+    padding: 12px 10px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+  }
+
+  .tab.active {
+    font-size: 0.95rem;
+    font-weight: bold;
+    padding: 13px 10px;
+    box-shadow: 0 4px 12px rgba(37, 117, 252, 0.5);
+  }
+
+  /* Nếu muốn 3 tab mỗi hàng (tùy chọn) */
+  /* .tab { flex: 1 1 calc(33.333% - 8px); max-width: calc(33.333% - 8px); } */
+
+  /* === PHẦN CÒN LẠI GIỮ NGUYÊN === */
   .quiz-container, .grid-container {
     padding: 10px;
     max-height: calc(90vh - 10px);

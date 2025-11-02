@@ -1,0 +1,902 @@
+[
+    {
+      "q": "Câu 21: Quá trình xác định các thành phần và cách chúng tương tác trong phần mềm được gọi là gì?",
+      "options": ["Kiến trúc phần mềm", "Thiết kế chi tiết", "Phân tích yêu cầu", "Triển khai hệ thống"],
+      "answer": 0
+    },
+    {
+      "q": "Câu 22: Lý do quan trọng nhất để có một thiết kế phần mềm tốt là gì, đặc biệt liên quan đến chi phí bảo trì?",
+      "options": ["Tăng tốc độ phát triển", "Giảm chi phí bảo trì lâu dài", "Dễ tuyển dụng lập trình viên", "Tăng tính thẩm mỹ giao diện"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 23: UML giúp hỗ trợ công việc gì trong thiết kế phần mềm hướng đối tượng?",
+      "options": ["Kiểm thử tự động", "Quản lý cơ sở dữ liệu", "Mô hình hóa hệ thống theo hướng đối tượng", "Tối ưu hiệu năng"],
+      "answer": 2
+    },
+    {
+      "q": "Câu 24: Loại biểu đồ nào trong UML thể hiện các lớp, thuộc tính và phương thức chủ yếu?",
+      "options": ["Biểu đồ trình tự", "Biểu đồ hoạt động", "Biểu đồ trạng thái", "Biểu đồ lớp"],
+      "answer": 3
+    },
+    {
+      "q": "Câu 25: Biểu đồ nào mô tả trình tự tương tác giữa các đối tượng theo thời gian trong hệ thống?",
+      "options": ["Biểu đồ trình tự", "Biểu đồ lớp", "Biểu đồ hoạt động", "Biểu đồ thành phần"],
+      "answer": 0
+    },
+    {
+      "q": "Câu 26: Mẫu thiết kế được định nghĩa là gì trong phát triển phần mềm?",
+      "options": ["Mã nguồn mẫu", "Giải pháp đã được kiểm chứng cho một vấn đề thiết kế phổ biến", "Công cụ tự động hóa", "Tài liệu yêu cầu"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 27: Bộ sưu tập mẫu thiết kế kinh điển phổ biến có bao nhiêu mẫu?",
+      "options": ["15 mẫu", "20 mẫu", "23 mẫu", "25 mẫu"],
+      "answer": 2
+    },
+    {
+      "q": "Câu 27: Tác giả bộ sưu tập 23 mẫu thiết kế kinh điển được gọi là gì?",
+      "options": ["Gang of Five", "Group of Three", "Gang of Four", "Team of Six"],
+      "answer": 2
+    },
+    {
+      "q": "Câu 28: Các mẫu thiết kế thuộc nhóm tạo lập (Creational) chủ yếu giải quyết vấn đề gì?",
+      "options": ["Cấu trúc lớp", "Tương tác giữa các đối tượng", "Cách tạo đối tượng một cách linh hoạt", "Quản lý trạng thái"],
+      "answer": 2
+    },
+    {
+      "q": "Câu 29: Mẫu thiết kế nào đảm bảo chỉ tồn tại một thể hiện duy nhất của một lớp trong toàn bộ ứng dụng?",
+      "options": ["Factory Method", "Observer", "Prototype", "Singleton"],
+      "answer": 3
+    },
+    {
+      "q": "Câu 30: Mẫu thiết kế nào giúp tạo đối tượng một cách linh hoạt mà không làm phức tạp lớp chứa nó?",
+      "options": ["Singleton", "Factory Method", "Decorator", "Strategy"],
+      "answer": 1
+    },
+    {
+      "q": "Mẫu thiết kế nào thuộc nhóm Creational, dùng để tạo ra một họ các đối tượng liên quan?",
+      "options": ["Builder", "Prototype", "Singleton", "Abstract Factory"],
+      "answer": 3
+    },
+    {
+      "q": "Biểu đồ nào trong UML mô tả các trạng thái và sự chuyển đổi trạng thái của một đối tượng?",
+      "options": ["Biểu đồ trình tự", "Biểu đồ lớp", "Biểu đồ thành phần", "Biểu đồ trạng thái"],
+      "answer": 3
+    },
+    {
+      "q": "Mẫu thiết kế nào cho phép thay đổi hành vi của một đối tượng tại thời điểm chạy?",
+      "options": ["Strategy", "Template Method", "State", "Command"],
+      "answer": 0
+    },
+    {
+      "q": "Mẫu thiết kế nào được sử dụng để đơn giản hóa giao diện với một hệ thống con phức tạp?",
+      "options": ["Adapter", "Proxy", "Bridge", "Facade"],
+      "answer": 3
+    },
+    {
+      "q": "Mẫu thiết kế Observer thuộc nhóm nào?",
+      "options": ["Creational", "Structural", "Architectural", "Behavioral"],
+      "answer": 3
+    },
+    {
+      "q": "Mẫu thiết kế nào cho phép xây dựng đối tượng phức tạp từng bước một?",
+      "options": ["Factory Method", "Prototype", "Abstract Factory", "Builder"],
+      "answer": 3
+    },
+    {
+      "q": "Trong UML, mối quan hệ 'kế thừa' được biểu diễn bằng biểu tượng nào?",
+      "options": ["Mũi tên rỗng", "Đường thẳng có dấu kim cương", "Mũi tên có dấu tam giác rỗng", "Đường nét đứt"],
+      "answer": 2
+    },
+    {
+      "q": "Mẫu thiết kế nào giúp tránh sự phụ thuộc trực tiếp giữa các lớp bằng cách dùng trung gian?",
+      "options": ["Mediator", "Proxy", "Adapter", "Decorator"],
+      "answer": 0
+    },
+    {
+      "q": "Nguyên tắc thiết kế 'tách biệt việc khởi tạo khỏi biểu diễn' liên quan chặt chẽ đến mẫu nào?",
+      "options": ["Singleton", "Builder", "Factory Method", "Prototype"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 10: Nguy cơ lớn nhất khi phát triển phần mềm tùy chỉnh là gì?",
+      "options": ["Thiếu tài liệu", "Chi phí cao và vượt ngân sách", "Không có giao diện đẹp", "Không hỗ trợ di động"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 11: Lợi ích nổi bật của phần mềm đóng gói so với tùy chỉnh?",
+      "options": ["Hoàn toàn phù hợp nghiệp vụ", "Dễ bảo trì hơn", "Triển khai nhanh, chi phí ban đầu thấp", "Không cần đào tạo"],
+      "answer": 2
+    },
+    {
+      "q": "Câu 12: Rủi ro phổ biến khi dùng phần mềm đóng gói?",
+      "options": ["Chi phí cao", "Khó cập nhật", "Bảo mật kém", "Không phù hợp hoàn toàn với quy trình doanh nghiệp"],
+      "answer": 3
+    },
+    {
+      "q": "Câu 13: Tác động tích cực của outsourcing đến doanh nghiệp?",
+      "options": ["Tăng chi phí nhân sự", "Mất kiểm soát dự án", "Tăng thời gian phát triển", "Tiếp cận công nghệ mới và chuyên gia"],
+      "answer": 3
+    },
+    {
+      "q": "Câu 14: Vấn đề phổ biến khi thuê ngoài offshore?",
+      "options": ["Múi giờ và rào cản văn hóa", "Chi phí thấp hơn", "Chất lượng luôn cao", "Dễ quản lý hơn"],
+      "answer": 0
+    },
+    {
+      "q": "Câu 15: Công việc chính trong tích hợp hệ thống không bao gồm?",
+      "options": ["Chuyển đổi dữ liệu", "Thiết kế giao diện người dùng", "Kiểm thử tích hợp", "Phân tích hệ thống cũ"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 16: Object Wrapper dùng để làm gì trong tích hợp hệ thống?",
+      "options": ["Tăng tốc độ hệ thống", "Đóng gói hệ thống cũ để giao tiếp với hệ thống mới", "Thay thế hoàn toàn hệ thống cũ", "Tạo giao diện người dùng"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 17: Verification đảm bảo điều gì?",
+      "options": ["Sản phẩm đúng yêu cầu người dùng", "Xây dựng sản phẩm đúng cách", "Hiệu năng cao", "Bảo mật tốt"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 18: Validation xác nhận điều gì?",
+      "options": ["Tuân thủ tiêu chuẩn coding", "Xây dựng đúng sản phẩm người dùng cần", "Tốc độ xử lý nhanh", "Dễ bảo trì"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 19: Lợi ích quan trọng nhất của prototyping?",
+      "options": ["Giảm chi phí lập trình", "Làm rõ yêu cầu và nhận phản hồi sớm", "Tăng tốc độ triển khai", "Tự động tạo mã nguồn"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 20: Yếu tố phi chức năng nào sau đây KHÔNG cần xem xét khi thiết kế?",
+      "options": ["Hiệu năng", "Màu sắc giao diện", "Bảo mật", "Khả năng mở rộng"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 21: Quá trình xác định thành phần và tương tác trong phần mềm gọi là?",
+      "options": ["Thiết kế chi tiết", "Kiến trúc phần mềm", "Phân tích yêu cầu", "Kiểm thử hệ thống"],
+      "answer": 1
+    },
+    {
+      "q": "Phần mềm đóng gói thường được gọi là gì?",
+      "options": ["Custom Software", "COTS", "Open Source", "Legacy System"],
+      "answer": 1
+    },
+    {
+      "q": "Verification trả lời câu hỏi nào?",
+      "options": ["Are we building the right product?", "Are we building the product right?", "Is the system secure?", "Is the UI beautiful?"],
+      "answer": 1
+    },
+    {
+      "q": "Validation trả lời câu hỏi nào?",
+      "options": ["Are we building the product right?", "Are we building the right product?", "Is the code optimized?", "Is the database normalized?"],
+      "answer": 1
+    },
+    {
+      "q": "Middleware thường được dùng trong giai đoạn nào?",
+      "options": ["Phân tích yêu cầu", "Tích hợp hệ thống", "Thiết kế giao diện", "Viết tài liệu"],
+      "answer": 1
+    },
+    {
+      "q": "Yếu tố nào KHÔNG phải là phi chức năng?",
+      "options": ["Tính đăng nhập người dùng", "Hiệu năng tải trang", "Bảo mật dữ liệu", "Khả năng mở rộng"],
+      "answer": 0
+    },
+    {
+      "q": "Outsourcing offshore thường gặp khó khăn gì lớn nhất?",
+      "options": ["Chi phí cao", "Múi giờ và giao tiếp", "Công nghệ lạc hậu", "Thiếu nhân sự"],
+      "answer": 1
+    },
+    {
+      "q": "Prototyping thuộc giai đoạn nào trong vòng đời phần mềm?",
+      "options": ["Triển khai", "Phân tích và thiết kế", "Bảo trì", "Kiểm thử"],
+      "answer": 1
+    },
+    {
+      "q": "Kiến trúc phần mềm tập trung vào cấp độ nào?",
+      "options": ["Chi tiết mã nguồn", "Cấu trúc cấp cao của hệ thống", "Giao diện người dùng", "Cơ sở dữ liệu"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 1: Phân tích tập trung giải quyết vấn đề nào trong dự án phần mềm?",
+      "options": ["Cách viết mã nguồn", "Hiểu đúng yêu cầu người dùng và nghiệp vụ", "Tối ưu hiệu năng", "Thiết kế giao diện"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 1: Khi phân tích, ta cần trả lời câu hỏi nào?",
+      "options": ["Làm như thế nào?", "Hệ thống cần làm gì?", "Dùng công nghệ gì?", "Chi phí bao nhiêu?"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 2: Giai đoạn thiết kế nhằm mục đích gì?",
+      "options": ["Thu thập yêu cầu", "Chuyển yêu cầu thành bản thiết kế kỹ thuật", "Viết mã nguồn", "Kiểm thử hệ thống"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 3: Mối quan hệ giữa phân tích và thiết kế là gì?",
+      "options": ["Phân tích là đầu ra của thiết kế", "Thiết kế là đầu vào của phân tích", "Phân tích là đầu vào, thiết kế là đầu ra", "Hai giai đoạn độc lập"],
+      "answer": 2
+    },
+    {
+      "q": "Câu 4: Phương pháp lặp (Agile) thực hiện phân tích và thiết kế như thế nào?",
+      "options": ["Làm toàn bộ một lần", "Từng phần nhỏ qua các vòng lặp", "Chỉ phân tích, không thiết kế", "Thiết kế trước, phân tích sau"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 5: Quá trình chuyển mô hình thiết kế thành phần mềm thực thi gọi là gì?",
+      "options": ["Phân tích", "Thiết kế", "Triển khai (Implementation)", "Kiểm thử"],
+      "answer": 2
+    },
+    {
+      "q": "Câu 6: Factoring trong tổ chức mô hình có tác dụng gì?",
+      "options": ["Chia nhỏ hệ thống", "Tách trách nhiệm chung để tái sử dụng", "Tăng tốc độ chạy", "Tạo giao diện"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 6: Partitioning có tác dụng gì?",
+      "options": ["Tái sử dụng mã", "Chia hệ thống thành các phân vùng độc lập", "Tăng bảo mật", "Tự động tạo tài liệu"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 7: Lớp nào trong kiến trúc phân tầng xử lý nghiệp vụ?",
+      "options": ["Presentation Layer", "Business Logic Layer", "Data Access Layer", "Infrastructure Layer"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 8: Mục đích chính của kế thừa trong mô hình lớp?",
+      "options": ["Tăng tốc độ", "Tái sử dụng mã và tổ chức phân cấp", "Tạo giao diện", "Lưu trữ dữ liệu"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 9: Lợi thế lớn nhất của phần mềm tùy chỉnh?",
+      "options": ["Chi phí thấp", "Phù hợp 100% với quy trình doanh nghiệp", "Triển khai nhanh", "Dễ bảo trì"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 10: Nguy cơ lớn nhất của phần mềm tùy chỉnh?",
+      "options": ["Không đẹp", "Chi phí cao và vượt ngân sách", "Không hỗ trợ mobile", "Thiếu tài liệu"],
+      "answer": 1
+    },
+    {
+      "q": "Giai đoạn nào trả lời câu hỏi 'What?'",
+      "options": ["Thiết kế", "Phân tích", "Triển khai", "Kiểm thử"],
+      "answer": 1
+    },
+    {
+      "q": "Giai đoạn nào trả lời câu hỏi 'How?'",
+      "options": ["Phân tích", "Thiết kế", "Bảo trì", "Phân tích yêu cầu"],
+      "answer": 1
+    },
+    {
+      "q": "Kiến trúc phân tầng gồm bao nhiêu lớp cơ bản?",
+      "options": ["2 lớp", "3 lớp", "4 lớp", "5 lớp"],
+      "answer": 1
+    },
+    {
+      "q": "Phương pháp nào khuyến khích làm việc lặp và phản hồi nhanh?",
+      "options": ["Waterfall", "Spiral", "Agile", "V-Model"],
+      "answer": 2
+    },
+    {
+      "q": "Kế thừa hỗ trợ nguyên tắc nào trong OOP?",
+      "options": ["Đóng gói", "Đa hình", "Trừu tượng", "Tất cả"],
+      "answer": 3
+    },
+    {
+      "q": "Business Logic Layer còn được gọi là gì?",
+      "options": ["View Layer", "Service Layer", "Repository Layer", "Controller Layer"],
+      "answer": 1
+    },
+    {
+      "q": "Scope creep thường xảy ra ở giai đoạn nào?",
+      "options": ["Thiết kế", "Phân tích và phát triển tùy chỉnh", "Triển khai", "Bảo trì"],
+      "answer": 1
+    },
+    {
+      "q": "Modularity được cải thiện nhờ kỹ thuật nào?",
+      "options": ["Factoring và Partitioning", "Inheritance và Polymorphism", "Loop và Condition", "SQL và NoSQL"],
+      "answer": 0
+    },
+    {
+      "q": "Câu 31: Hậu quả của việc dùng quá nhiều mẫu thiết kế không phù hợp?",
+      "options": ["Tăng hiệu năng", "Over-engineering, hệ thống phức tạp", "Giảm chi phí", "Dễ bảo trì hơn"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 32: SCM viết tắt của gì và có nhiệm vụ chính là gì?",
+      "options": ["Source Code Management - Quản lý mã nguồn", "Software Configuration Management - Quản lý cấu hình phần mềm", "System Control Module - Điều khiển hệ thống", "Security Compliance Model - Mô hình tuân thủ bảo mật"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 33: Hệ thống quản lý phiên bản phổ biến nhất hiện nay?",
+      "options": ["SVN", "Mercurial", "Git", "CVS"],
+      "answer": 2
+    },
+    {
+      "q": "Câu 34: Tính năng nào của Git giúp quản lý quy trình phát triển tốt nhất?",
+      "options": ["Commit nhanh", "Branching & Merging", "Tự động backup", "Giao diện đẹp"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 35: Khó khăn lớn nhất khi xây dựng thành phần tái sử dụng?",
+      "options": ["Viết tài liệu", "Thiết kế tổng quát mà vẫn hiệu quả", "Tích hợp database", "Tạo giao diện"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 36: Kiến trúc phần mềm xác định điều gì?",
+      "options": ["Chi tiết mã nguồn", "Cấu trúc cấp cao và tương tác thành phần", "Màu sắc giao diện", "Cơ sở dữ liệu"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 37: Tầng nào trong kiến trúc 3 tầng xử lý quy tắc nghiệp vụ?",
+      "options": ["Presentation Layer", "Business Logic Layer", "Data Access Layer", "Network Layer"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 38: Đặc điểm nổi bật của Microservices?",
+      "options": ["Tất cả dịch vụ dùng chung database", "Mỗi dịch vụ độc lập, deploy riêng, giao tiếp qua API", "Chỉ dùng một ngôn ngữ lập trình", "Không cần kiểm soát phiên bản"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 39: Mô hình CIA gồm 3 nguyên tắc nào?",
+      "options": ["Cost, Integration, Automation", "Confidentiality, Integrity, Availability", "Control, Identity, Access", "Cloud, Internet, Application"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 40: Điểm mạnh lớn nhất của Cloud so với On-Premise?",
+      "options": ["Bảo mật tốt hơn", "Khả năng mở rộng linh hoạt và giảm chi phí ban đầu", "Tốc độ truy cập nhanh hơn", "Không cần bảo trì"],
+      "answer": 1
+    },
+    {
+      "q": "Git là hệ thống quản lý phiên bản kiểu gì?",
+      "options": ["Tập trung (Centralized)", "Phân tán (Distributed)", "Tệp đơn (Single-file)", "Cơ sở dữ liệu"],
+      "answer": 1
+    },
+    {
+      "q": "Nguyên tắc nào trong CIA đảm bảo dữ liệu không bị sửa đổi trái phép?",
+      "options": ["Confidentiality", "Integrity", "Availability", "Authentication"],
+      "answer": 1
+    },
+    {
+      "q": "Trong Microservices, mỗi dịch vụ thường có:",
+      "options": ["Cơ sở dữ liệu chung", "Cơ sở dữ liệu riêng", "Không cần database", "Chỉ dùng file"],
+      "answer": 1
+    },
+    {
+      "q": "Kiến trúc 3 tầng còn được gọi là:",
+      "options": ["Monolith", "Client-Server", "N-tier", "Peer-to-Peer"],
+      "answer": 2
+    },
+    {
+      "q": "Pull Request dùng để làm gì trong Git?",
+      "options": ["Tự động deploy", "Review và merge code", "Xóa nhánh", "Tạo backup"],
+      "answer": 1
+    },
+    {
+      "q": "Component reusability bị ảnh hưởng bởi yếu tố nào nhất?",
+      "options": ["Màu sắc", "Độ tổng quát và không phụ thuộc cụ thể", "Số lượng dòng code", "Tên biến"],
+      "answer": 1
+    },
+    {
+      "q": "Cloud computing chuyển chi phí từ ___ sang ___",
+      "options": ["OpEx → CapEx", "CapEx → OpEx", "Revenue → Profit", "Fixed → Variable"],
+      "answer": 1
+    },
+    {
+      "q": "SCM giúp đảm bảo điều gì quan trọng trong dự án?",
+      "options": ["Giao diện đẹp", "Tính truy vết (traceability)", "Tốc độ tải trang", "Số lượng người dùng"],
+      "answer": 1
+    },
+    {
+      "q": "Nguyên tắc 'Availability' trong CIA có nghĩa là:",
+      "options": ["Dữ liệu bí mật", "Hệ thống luôn sẵn sàng", "Dữ liệu chính xác", "Xác thực người dùng"],
+      "answer": 1
+    },
+    {
+      "q": "Kiến trúc phần mềm là cấp độ thiết kế nào?",
+      "options": ["Chi tiết (low-level)", "Cao cấp (high-level)", "Giao diện người dùng", "Cơ sở dữ liệu"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 41: Mục đích chính của thiết kế giao diện người dùng là gì?",
+      "options": ["Tăng tốc độ tải trang", "Tạo trải nghiệm dễ dùng và hiệu quả", "Hỗ trợ nhiều ngôn ngữ", "Tích hợp AI"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 42: Yếu tố trọng tâm trong thiết kế giao diện là gì?",
+      "options": ["Công nghệ mới", "Thiết kế lấy người dùng làm trung tâm (UCD)", "Màu sắc đẹp", "Hiệu ứng động"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 43: Lợi ích lớn nhất của giao diện nhất quán?",
+      "options": ["Tăng dung lượng", "Giảm thời gian học và lỗi người dùng", "Tăng hiệu năng", "Dễ code hơn"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 44: Phản hồi hệ thống trong UI giúp người dùng điều gì?",
+      "options": ["Biết hành động đã được thực hiện", "Tăng tốc độ click", "Thay đổi màu nền", "Tự động lưu"],
+      "answer": 0
+    },
+    {
+      "q": "Câu 45: Ví dụ điển hình cho thiết kế tối giản?",
+      "options": ["Facebook News Feed", "Google Search Homepage", "Netflix Dashboard", "Amazon Product Page"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 46: Nguyên tắc linh hoạt trong UI phục vụ nhóm nào?",
+      "options": ["Chỉ lập trình viên", "Người dùng có nhu cầu và khả năng khác nhau", "Chỉ quản trị viên", "Chỉ người dùng mobile"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 47: Cách nào giảm lỗi người dùng trong giao diện?",
+      "options": ["Thêm nhiều nút", "Xác nhận trước hành động nguy hiểm", "Tăng độ sáng màn hình", "Dùng font nhỏ"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 48: Quy trình thiết kế UI thường là:",
+      "options": ["Thiết kế → code → xong", "Lặp đi lặp lại với kiểm thử người dùng", "Chỉ làm một lần", "Dựa vào cảm tính"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 49: Bước đầu tiên trước khi thiết kế giao diện?",
+      "options": ["Vẽ wireframe", "Hiểu người dùng và yêu cầu", "Chọn màu sắc", "Viết code"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 50: Wireframe chủ yếu thể hiện gì?",
+      "options": ["Màu sắc và hình ảnh", "Bố cục và cấu trúc chức năng", "Hiệu ứng hover", "Font chữ"],
+      "answer": 1
+    },
+    {
+      "q": "Thiết kế lấy người dùng làm trung tâm còn gọi là?",
+      "options": ["UCD", "UID", "UXD", "GDD"],
+      "answer": 0
+    },
+    {
+      "q": "Phản hồi hệ thống có thể là dạng nào?",
+      "options": ["Chỉ thông báo lỗi", "Loading spinner, toast message, progress bar", "Chỉ âm thanh", "Chỉ thay đổi màu"],
+      "answer": 1
+    },
+    {
+      "q": "Nguyên tắc nào yêu cầu giao diện phải dễ học, dễ nhớ?",
+      "options": ["Consistency", "Minimalism", "Learnability", "Flexibility"],
+      "answer": 2
+    },
+    {
+      "q": "Persona trong thiết kế UI là gì?",
+      "options": ["Mẫu người dùng giả định", "Tài khoản thật", "Nhân viên công ty", "Lập trình viên"],
+      "answer": 0
+    },
+    {
+      "q": "Usability testing thuộc giai đoạn nào?",
+      "options": ["Phân tích yêu cầu", "Sau khi thiết kế và có prototype", "Triển khai sản phẩm", "Bảo trì"],
+      "answer": 1
+    },
+    {
+      "q": "Thiết kế tối giản tuân theo nguyên tắc:",
+      "options": ["Less is more", "More is better", "Fast is best", "Color is key"],
+      "answer": 0
+    },
+    {
+      "q": "Tooltip dùng để làm gì trong UI?",
+      "options": ["Tăng hiệu năng", "Hướng dẫn người dùng khi hover", "Lưu dữ liệu", "Tự động điền form"],
+      "answer": 1
+    },
+    {
+      "q": "Bố cục wireframe thường được vẽ bằng công cụ nào?",
+      "options": ["Photoshop", "Figma, Balsamiq, Sketch", "Visual Studio", "Excel"],
+      "answer": 1
+    },
+    {
+      "q": "Nguyên tắc 'Consistency' trong UI có nghĩa là:",
+      "options": ["Mọi thứ phải giống nhau", "Giao diện thống nhất về kiểu dáng và hành vi", "Tốc độ xử lý nhanh", "Hỗ trợ đa nền tảng"],
+      "answer": 1
+    },
+    {
+      "q": "Mục tiêu của UCD là:",
+      "options": ["Làm đẹp giao diện", "Đáp ứng nhu cầu người dùng thực sự", "Giảm chi phí code", "Tăng doanh thu"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 51: Khác biệt lớn nhất giữa mockup và wireframe?",
+      "options": ["Mockup có màu sắc và hình ảnh, wireframe chỉ bố cục", "Wireframe có thể click, mockup không", "Mockup là bản code, wireframe là bản vẽ", "Không có khác biệt"],
+      "answer": 0
+    },
+    {
+      "q": "Câu 52: Prototype giúp trải nghiệm điều gì của giao diện?",
+      "options": ["Màu sắc", "Tính tương tác và luồng người dùng", "Hiệu năng", "Bảo mật"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 53: Đánh giá chuyên gia giao diện dựa trên?",
+      "options": ["Cảm tính cá nhân", "Nielsen’s 10 Usability Heuristics", "Số lượng nút bấm", "Độ phân giải màn hình"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 54: Giao diện tương tác chú trọng đến?",
+      "options": ["Hiệu ứng 3D", "Hành vi tự nhiên và kỳ vọng người dùng", "Tốc độ tải trang", "Số lượng người dùng"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 55: Mục đích của tính an toàn trong UI tương tác?",
+      "options": ["Tăng tốc độ", "Ngăn hành động không thể phục hồi", "Làm đẹp giao diện", "Tự động lưu"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 56: Ràng buộc trong thiết kế tương tác giúp gì?",
+      "options": ["Tăng hiệu năng", "Giảm lỗi nhập liệu", "Tăng dung lượng", "Làm chậm hệ thống"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 57: Người dùng cần hỗ trợ gì khi nhập dữ liệu?",
+      "options": ["Chỉ ô trống", "Hướng dẫn, phản hồi, gợi ý, xử lý lỗi rõ ràng", "Tự động nhập hộ", "Không cần hỗ trợ"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 58: Khi nhập sai, giao diện nên phản hồi thế nào?",
+      "options": ["Tắt ứng dụng", "Thông báo lỗi rõ ràng + hướng dẫn sửa", "Xóa toàn bộ form", "Không phản hồi gì"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 59: Tối ưu backend ảnh hưởng đến UX như thế nào?",
+      "options": ["Không ảnh hưởng", "Tăng tốc độ phản hồi → cải thiện UX", "Làm đẹp giao diện", "Tăng bảo mật"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 60: Tại sao cần tách biệt giao diện và logic?",
+      "options": ["Giảm dung lượng", "Dễ bảo trì, tái sử dụng, team làm việc song song", "Tăng tốc độ code", "Làm đẹp UI"],
+      "answer": 1
+    },
+    {
+      "q": "Wireframe thuộc mức độ fidelity nào?",
+      "options": ["High-fidelity", "Low-fidelity", "No-fidelity", "Full-fidelity"],
+      "answer": 1
+    },
+    {
+      "q": "Heuristic Evaluation do ai thực hiện?",
+      "options": ["Người dùng cuối", "Chuyên gia UX", "Lập trình viên", "Quản lý dự án"],
+      "answer": 1
+    },
+    {
+      "q": "Nguyên tắc nào yêu cầu 'hệ thống phải luôn thông báo trạng thái'?",
+      "options": ["Visibility of system status", "Match between system and real world", "User control and freedom", "Error prevention"],
+      "answer": 0
+    },
+    {
+      "q": "Placeholder trong form có tác dụng gì?",
+      "options": ["Chỉ để trang trí", "Gợi ý định dạng dữ liệu cần nhập", "Lưu dữ liệu", "Tự động điền"],
+      "answer": 1
+    },
+    {
+      "q": "Tính năng 'Undo' thuộc nguyên tắc nào?",
+      "options": ["Error prevention", "User control and freedom", "Consistency", "Minimalist design"],
+      "answer": 1
+    },
+    {
+      "q": "Backend chậm gây ra hiện tượng gì ở frontend?",
+      "options": ["Màu sắc nhạt", "Loading lâu, giao diện đơ", "Lỗi bảo mật", "Tự động đăng xuất"],
+      "answer": 1
+    },
+    {
+      "q": "Mẫu thiết kế tách UI và logic phổ biến nhất?",
+      "options": ["Singleton", "MVC", "Factory", "Observer"],
+      "answer": 1
+    },
+    {
+      "q": "Mockup thường được tạo bằng công cụ nào?",
+      "options": ["Excel", "Figma, Adobe XD, Sketch", "Notepad", "Git"],
+      "answer": 1
+    },
+    {
+      "q": "Usability testing khác heuristic evaluation ở điểm nào?",
+      "options": ["Do người dùng thật", "Do chuyên gia", "Không cần prototype", "Chỉ xem màu sắc"],
+      "answer": 0
+    },
+    {
+      "q": "Separation of Concerns giúp gì trong phát triển?",
+      "options": ["Tăng độ phức tạp", "Tách UI, logic, data → dễ bảo trì", "Giảm số lượng file", "Tăng tốc độ tải"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 61: Đặc tả phương thức theo DbC bao gồm thông tin nào?",
+      "options": ["Chỉ tên và tham số", "Tiền/hậu điều kiện, bất biến, ngoại lệ", "Chỉ mã nguồn", "Chỉ giao diện"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 62: Có bao nhiêu loại ràng buộc chính trong thiết kế phần mềm?",
+      "options": ["2", "3", "4", "5"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 62: Ba loại ràng buộc chính là gì?",
+      "options": ["Input, Output, Error", "Pre, Post, Invariant", "Public, Private, Protected", "Sync, Async, Event"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 63: Tiền điều kiện phải được thỏa mãn khi nào?",
+      "options": ["Sau khi phương thức chạy", "Trước khi phương thức được gọi", "Trong khi chạy", "Khi có lỗi"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 63: Ai chịu trách nhiệm đảm bảo tiền điều kiện?",
+      "options": ["Phương thức", "Người gọi (caller)", "Hệ thống", "Database"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 64: Hậu điều kiện đảm bảo điều gì?",
+      "options": ["Input hợp lệ", "Kết quả đúng như cam kết", "Không có lỗi", "Tốc độ nhanh"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 65: Bất biến (invariant) có ý nghĩa gì?",
+      "options": ["Chỉ đúng khi khởi tạo", "Luôn đúng suốt vòng đời đối tượng", "Chỉ đúng khi kết thúc", "Không cần kiểm tra"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 66: OCL dùng để làm gì?",
+      "options": ["Viết mã nguồn", "Đặc tả ràng buộc chính xác trong UML", "Tạo giao diện", "Kiểm thử hiệu năng"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 67: Trong OCL, 'self' đại diện cho?",
+      "options": ["Lớp cha", "Đối tượng hiện tại", "Toàn bộ hệ thống", "Biến toàn cục"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 68: 'inv' trong OCL dùng để biểu đạt?",
+      "options": ["Tiền điều kiện", "Hậu điều kiện", "Bất biến lớp", "Phương thức"],
+      "answer": 2
+    },
+    {
+      "q": "Câu 69: '->size()' trong OCL trả về gì?",
+      "options": ["Tên phần tử", "Số phần tử trong tập hợp", "Giá trị lớn nhất", "Kiểu dữ liệu"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 70: Đặc điểm nổi bật của kiến trúc tập trung (monolithic)?",
+      "options": ["Dễ mở rộng", "Tất cả tập trung một nơi", "Deploy riêng lẻ", "Không cần database"],
+      "answer": 1
+    },
+    {
+      "q": "Design by Contract do ai đề xuất?",
+      "options": ["Grady Booch", "Bertrand Meyer", "Martin Fowler", "James Rumbaugh"],
+      "answer": 1
+    },
+    {
+      "q": "OCL là viết tắt của?",
+      "options": ["Object Control Language", "Object Constraint Language", "Open Class Library", "Output Control Logic"],
+      "answer": 1
+    },
+    {
+      "q": "Ví dụ về bất biến lớp 'Person'?",
+      "options": ["self.name <> ''", "self.age > 18", "self.login()", "self.save()"],
+      "answer": 0
+    },
+    {
+      "q": "Trong OCL, '->forAll()' dùng để làm gì?",
+      "options": ["Đếm phần tử", "Kiểm tra tất cả phần tử thỏa điều kiện", "Lấy phần tử đầu", "Sắp xếp"],
+      "answer": 1
+    },
+    {
+      "q": "Kiến trúc tập trung phù hợp nhất với?",
+      "options": ["Hệ thống lớn, phức tạp", "Dự án nhỏ, khởi đầu nhanh", "Microservices", "Hệ thống phân tán"],
+      "answer": 1
+    },
+    {
+      "q": "Hậu điều kiện thường dùng từ khóa gì trong Eiffel?",
+      "options": ["require", "ensure", "invariant", "check"],
+      "answer": 1
+    },
+    {
+      "q": "OCL thường được dùng kết hợp với mô hình nào?",
+      "options": ["ERD", "UML", "BPMN", "DFD"],
+      "answer": 1
+    },
+    {
+      "q": "Monolithic khác microservices ở điểm nào?",
+      "options": ["Tốc độ nhanh hơn", "Tất cả trong một ứng dụng duy nhất", "Dễ bảo mật hơn", "Không cần version control"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 71: Lợi ích lớn nhất của mô hình tập trung trong quản lý dữ liệu?",
+      "options": ["Tốc độ nhanh", "Tính nhất quán và kiểm soát truy cập tập trung", "Dễ mở rộng", "Không cần backup"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 72: Điểm yếu lớn nhất của mô hình tập trung với hệ thống lớn?",
+      "options": ["Chi phí cao", "Điểm nghẽn hiệu năng, khó mở rộng", "Khó bảo mật", "Không hỗ trợ web"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 73: Kiến trúc Client-Server hoạt động theo nguyên tắc?",
+      "options": ["Tất cả trên một máy", "Client yêu cầu – Server xử lý", "Chỉ dùng file", "Không cần mạng"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 74: Ứng dụng nào phổ biến nhất dùng mô hình client-server?",
+      "options": ["Ứng dụng desktop", "Ứng dụng web", "Game offline", "Hệ thống nhúng"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 75: Ưu điểm của client-server về bảo trì và mở rộng?",
+      "options": ["Cập nhật client mỗi lần", "Cập nhật server, client tự động dùng mới", "Không cần cập nhật", "Chỉ mở rộng client"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 76: Kiến trúc phân lớp được xây dựng theo kiểu gì?",
+      "options": ["Monolithic", "N-tier / Layered", "Peer-to-Peer", "Event-Driven"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 77: Mô hình phân lớp giúp gì cho phát triển?",
+      "options": ["Tăng độ phức tạp", "Tách biệt trách nhiệm, dễ bảo trì, team song song", "Giảm số lượng file", "Tăng tốc độ code"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 78: Nguyên lý nào KHÔNG thuộc nền tảng phân rã hướng đối tượng?",
+      "options": ["Encapsulation", "Inheritance", "Polymorphism", "Serialization"],
+      "answer": 3
+    },
+    {
+      "q": "Câu 79: Đóng gói giúp gì về dữ liệu và phụ thuộc?",
+      "options": ["Tăng tốc độ", "Ẩn dữ liệu, giảm phụ thuộc, tăng toàn vẹn", "Tự động lưu", "Tăng dung lượng"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 80: Lớp con có thể làm gì với phương thức lớp cha?",
+      "options": ["Chỉ xóa", "Kế thừa, ghi đè, mở rộng", "Không làm gì", "Chỉ copy"],
+      "answer": 1
+    },
+    {
+      "q": "Mô hình tập trung còn gọi là?",
+      "options": ["Distributed", "Monolithic", "Microservices", "Cloud-native"],
+      "answer": 1
+    },
+    {
+      "q": "Client trong client-server thường đảm nhận tầng nào?",
+      "options": ["Data Layer", "Presentation Layer", "Business Layer", "Network Layer"],
+      "answer": 1
+    },
+    {
+      "q": "Kiến trúc 3-tier gồm những tầng nào?",
+      "options": ["Client, Server, Database", "Presentation, Business, Data", "Web, App, DB", "UI, API, Storage"],
+      "answer": 1
+    },
+    {
+      "q": "Nguyên lý 'Abstraction' trong OOP có nghĩa là?",
+      "options": ["Ẩn chi tiết triển khai", "Tạo nhiều lớp con", "Ghi đè phương thức", "Tách file"],
+      "answer": 0
+    },
+    {
+      "q": "Kế thừa giúp tránh điều gì?",
+      "options": ["Lặp lại mã nguồn", "Tăng tốc độ", "Giảm bộ nhớ", "Tự động test"],
+      "answer": 0
+    },
+    {
+      "q": "Trong n-tier, tầng nào xử lý quy tắc nghiệp vụ?",
+      "options": ["Presentation", "Business Logic", "Data Access", "Infrastructure"],
+      "answer": 1
+    },
+    {
+      "q": "Load balancing thường được dùng trong mô hình nào?",
+      "options": ["Monolithic", "Client-Server", "Peer-to-Peer", "Standalone"],
+      "answer": 1
+    },
+    {
+      "q": "Đóng gói sử dụng từ khóa nào trong Java/C#?",
+      "options": ["public", "private/protected", "static", "final"],
+      "answer": 1
+    },
+    {
+      "q": "Polymorphism cho phép điều gì?",
+      "options": ["Một phương thức nhiều hành vi", "Một lớp nhiều cha", "Tự động lưu", "Tăng bộ nhớ"],
+      "answer": 0
+    },
+    {
+      "q": "Mô hình phân lớp tuân thủ nguyên lý thiết kế nào?",
+      "options": ["SOLID", "KISS", "YAGNI", "DRY"],
+      "answer": 0
+    },
+    {
+      "q": "Câu 81: Chuẩn IEEE giúp gì cho thiết kế phần mềm?",
+      "options": ["Tăng tốc độ code", "Khung tài liệu chuẩn, đảm bảo nhất quán và bảo trì", "Tự động tạo giao diện", "Tích hợp AI"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 82: Mục tiêu chính của chuẩn IEEE là gì?",
+      "options": ["Giảm chi phí", "Đảm bảo chất lượng, giao tiếp, bảo trì", "Tăng hiệu năng", "Hỗ trợ mobile"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 83: IEEE 1016 quy định về tài liệu gì?",
+      "options": ["Yêu cầu phần mềm", "Mô tả thiết kế phần mềm (SDD)", "Kiểm thử", "Triển khai"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 83: IEEE 1016 gồm mấy phần chính?",
+      "options": ["2 phần", "3 phần", "4 phần", "5 phần"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 84: Phần thiết kế tổng quát trình bày gì?",
+      "options": ["Chi tiết lớp", "Mục tiêu, phạm vi, ràng buộc", "Thuật toán", "Giao diện API"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 85: Phần kiến trúc mô tả gì?",
+      "options": ["Màu sắc UI", "Thành phần, mối quan hệ, giao diện, luồng dữ liệu", "Cơ sở dữ liệu", "Code mẫu"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 86: Nguyên tắc nào KHÔNG thuộc thiết kế kiến trúc tốt theo IEEE?",
+      "options": ["Modularity", "High Coupling", "Low Coupling", "Information Hiding"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 87: Mô hình Waterfall có đặc điểm gì?",
+      "options": ["Lặp đi lặp lại", "Tuần tự tuyến tính, tài liệu đầy đủ mỗi giai đoạn", "Không cần tài liệu", "Chỉ code"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 88: Agile ưu tiên điều gì hơn hết?",
+      "options": ["Tài liệu chi tiết", "Cá nhân và tương tác", "Kế hoạch cứng nhắc", "Công cụ đắt tiền"],
+      "answer": 1
+    },
+    {
+      "q": "Câu 89: Chuẩn IEEE và Agile có thể kết hợp như thế nào?",
+      "options": ["Không thể kết hợp", "Dùng IEEE làm khung, Agile làm vòng lặp", "Chỉ dùng một cái", "IEEE thay thế Agile"],
+      "answer": 1
+    },
+    {
+      "q": "IEEE 1016 viết tắt của gì?",
+      "options": ["Software Design Description", "System Development Document", "Software Deployment Directive", "Standard Design Document"],
+      "answer": 0
+    },
+    {
+      "q": "Phần nào trong IEEE 1016 mô tả lớp và phương thức?",
+      "options": ["Tổng quát", "Kiến trúc", "Chi tiết", "Triển khai"],
+      "answer": 2
+    },
+    {
+      "q": "Nguyên tắc 'High Cohesion' có nghĩa là?",
+      "options": ["Nhiều phụ thuộc", "Thành phần có trách nhiệm rõ ràng", "Chia nhỏ quá mức", "Tập trung một nơi"],
+      "answer": 1
+    },
+    {
+      "q": "Waterfall phù hợp nhất với dự án nào?",
+      "options": ["Yêu cầu thay đổi liên tục", "Yêu cầu rõ ràng, ít thay đổi", "Không cần tài liệu", "Chỉ làm demo"],
+      "answer": 1
+    },
+    {
+      "q": "Agile Manifesto được công bố năm nào?",
+      "options": ["1999", "2001", "2005", "2010"],
+      "answer": 1
+    },
+    {
+      "q": "IEEE là tổ chức nào?",
+      "options": ["International Engineering", "Institute of Electrical and Electronics Engineers", "Internet Engineering", "Indian Electronics"],
+      "answer": 1
+    },
+    {
+      "q": "Nguyên tắc 'Information Hiding' giúp gì?",
+      "options": ["Tăng tốc độ", "Ẩn chi tiết triển khai, giảm phụ thuộc", "Tăng dung lượng", "Tự động test"],
+      "answer": 1
+    },
+    {
+      "q": "Trong Agile, tài liệu được tạo như thế nào?",
+      "options": ["Không cần", "Vừa đủ, liên tục cập nhật", "Toàn bộ từ đầu", "Chỉ cuối dự án"],
+      "answer": 1
+    },
+    {
+      "q": "Mục tiêu của IEEE 1016 là gì?",
+      "options": ["Tăng tốc độ", "Tạo tài liệu thiết kế đầy đủ, rõ ràng, chuẩn hóa", "Giảm chi phí", "Tự động code"],
+      "answer": 1
+    },
+    {
+      "q": "Kiến trúc tốt phải đảm bảo nguyên tắc nào sau đây?",
+      "options": ["Tất cả trong một file", "Low Coupling & High Cohesion", "Không cần tài liệu", "Chỉ dùng một ngôn ngữ"],
+      "answer": 1
+    }
+  ]
